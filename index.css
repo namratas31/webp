@@ -1,0 +1,412 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Sora', sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("cel.jpg");
+}
+
+nav{
+    display:flex;
+    padding: 1% 1%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    width: 150px;
+
+}
+
+.nav-links
+{
+    flex:1;
+    text-align:right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: rgb(129, 163, 193);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width:100%;
+}
+
+.text-box{
+    width: 50%;
+    color: rgb(178, 203, 217);
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    text-align: left;
+    border-width:20px;
+    border-color: rgb(118, 194, 229);
+    border-radius: 8px;
+}
+
+.text-box h1{
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    font-family: 'Black Ops One', cursive;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: rgb(32, 96, 151);
+}
+
+.n-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(26, 43, 59);
+    padding: 12px 34px;
+    font-size: 13px;
+    background-color: #2186eb;
+    position: relative;
+    cursor: pointer;
+}
+
+.n-btn:hover{
+    border: 1px solid rgb(48, 102, 144);
+    background:rgb(136, 136, 188) ;
+    transition: 1s;
+}
+
+.img{
+    position: absolute;
+    top: 25%;
+    right: 2%;
+}
+
+.footer
+{   text-align: center;
+    background-color: rgb(32, 32, 39);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+h3{
+    font-size: 36px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+
+p1{
+    color: rgb(208, 238, 255);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:12px;
+}
+
+.row{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer2{
+    width: 100%;
+    text-align: center;
+    background-image: url("jk.jpg");
+    min-height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 40%;
+}
+
+.detail{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+
+p2{
+    color: rgb(212, 229, 236);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding:12px;
+}
+
+.s-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(26, 43, 59);
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.s-btn:hover{
+    border: 1px solid rgb(2, 53, 59);
+    background:rgb(141, 187, 199) ;
+    transition: 1s;
+}
+
+.con1{
+    width: 20%;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color:aliceblue;
+    border-radius: 8px;
+    margin-left: 5px;
+    justify-content: space-around;
+}
+
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-color: rgb(10, 14, 36);
+}
+
+.row1{
+    margin-top: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h5{
+    font-size: 45px;
+    font-weight: 600;
+    color: rgb(184, 178, 240);
+}
+
+.footer3{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    border-radius: 8px;
+    margin-top: 1px;
+}
+
+.fa {
+    padding: 4px;
+    font-size: 60px;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2px 1px;
+    border-radius: 8px;
+    
+  }
+
+.fa-instagram {
+    background-image: url("insta.png");
+  }
+  
+.gmail{
+    background-image: url("mail.png");
+    width: 40px;
+    padding: 4px;
+    margin: 2px 1px;
+}
+
+.d-col{
+    align-items: center;
+    width:30%;
+    border: 10px;
+color: rgb(0, 0, 0);
+margin-right:5px ;
+margin-left: 5px;
+justify-content: space-between;
+}
+
+.d-col img{
+    width: 280px;
+}
+
+.footer-col img
+{
+    width: 200px;
+}
+
+.detail-col img{
+    width: 200px;
+}
+
+.footer-col
+{
+    text-align: center;
+}
+
+p{
+    color: rgb(0, 0, 0);
+}
+
+.topnav
+{
+    background-color: rgb(223, 172, 85);
+    text-align: left;
+    color: black;
+    height: 30px;
+}
+
+.topnav2
+{
+    background-color: rgb(0, 0, 0);
+    text-align: left;
+    color: rgb(255, 255, 255);
+    height: 40px;
+}
+
+.tab{
+    float:left;
+    background-color: rgb(24, 92, 151);
+    width: 20%;
+    height: 700px;
+    border-radius: 25px;
+}
+
+.tab2{
+    float:right;
+    border:1px solid #ccc;
+    background-color: aliceblue;
+    width: 79%;
+    height: 700px;
+}
+
+.tab button{
+    display:block;
+    background-color:inherit;
+    color:black;
+    padding: 22px 16px;
+    width:100%;
+    border:none;
+    outline:none;
+    text-align: left;
+    cursor:pointer;
+    transition:0.3s;
+    font-size:17px;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+}
+
+p{
+    color: azure;
+}
+
+.card{
+    color: aliceblue;
+    width: 100%;
+    background-size: cover;
+}
+
+.container{
+    margin-left: 15px;
+    text-align: center;
+    background-color: rgb(158, 90, 6);
+    width: 30%;
+}
+
+.pro{
+    width: 50px;
+}
+
+.search
+{
+    width:800px;
+    height:40px;
+    border-radius: 20px;
+}
+
+.write
+{
+    border-radius: 20px;
+    height:40px;
+    color: #2186eb;
+}
+
+.header3{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-image: url("cel.jpg");
+}
+
+.nav-links2{
+    flex:1;
+    text-align:center;
+}
+
+.nav-links2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.nav-links2 ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 15px;
+    text-align: right;
+}
